@@ -86,7 +86,7 @@ class BertOutAttention(nn.Module):
 class Bert_Model_Matching(nn.Module):
 
     def __init__(self):
-        super(Bert_Model, self).__init__()
+        super(Bert_Model_Matching, self).__init__()
 
         self.rnn_units = 512
         # self.embedding_dim = 200
