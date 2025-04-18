@@ -37,13 +37,14 @@ Due to the policy, we are not allowed to release the video data. If you need, pl
 ```
 
 ## Binary
-This directory contains the binary implementation of our approach. Inside of this directory, we can find two directories 1) source, and 2) processed_data. 
+This directory contains the binary implementation of our approach. This directory includes source directory which has 1) the proposed HICCAP model implementation, 2) nlp_comic_binary.py script for training purpose, and 3) config.py contains the hyperparameters and configurations variables.  
 
 ## Multi-Task
-Similar to the "Binary" directory, this directory contains the multi-task implementation of our approach. Inside of this directory, we can find two directories 1) source, and 2) processed_data. 
+Similar to the "Binary" directory, This directory contains the multi-task implementation of HICCAP approach. It includes source directory which has 1) the proposed HICCAP model implementation, 2) nlp_comic_multi_task.py script for training purpose, and 3) config.py contains the hyperparameters and configurations variables.  
 
-## Features
-During the training of the model, we load the i3d and vggish features of input videos and audio respectively. These files have been generated offline and stored in separate directories which will be read during the training and testing process. 
+
+## Data
+This directory contains 1) Metadata of train/val/test sets, 2) VGGish audio feature vetors, and 3)I3D video feature vectors. 
 
 
 ## Citation
