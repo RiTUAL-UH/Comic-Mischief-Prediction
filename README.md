@@ -35,6 +35,14 @@ In this repository, we provide three json files containing Metadata of train/val
 2. Audio features extracted using VGGish model
 ```
 
+## Binary
+This directory contains the binary implementation of our approach. Inside of this directory, we can find two directories 1) source, and 2) processed_data. 
+
+## Multi-Task
+Similar to the "Binary" directory, this directory contains the multi-task implementation of our approach. Inside of this directory, we can find two directories 1) source, and 2) processed_data. 
+
+## Features
+During the training of the model, we load the i3d and vggish features of input videos and audio respectively. These files have been generated offline and stored in separate directories which will be read during the training and testing process. 
 
 
 ## Citation
