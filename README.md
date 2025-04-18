@@ -28,7 +28,8 @@ multimodal_NER
 ```
 
 ## Data
-In this repository, we provide three json files containing Metadata of train/val/test sets. These files also include the name of the videos in the Youtube, original subtitles and their extracted tokens using BERT model, labels, and some additional information related to each video. Due to the policy, we are not allowed to release the video data. If you need, please email Elaheh Baharlouei ([elaheh.bahar1@gmail.com](elaheh.bahar1@gmail.com)) and we will provide the following data:
+In this directory, we provide three JSON files containing Metadata of train/val/test sets. These files also include the name of the videos on YouTube, original subtitles, and their extracted tokens using the BERT model, labels, and some additional information related to each video.
+Due to the policy, we are not allowed to release the video data. If you need, please email Elaheh Baharlouei ([elaheh.bahar1@gmail.com](elaheh.bahar1@gmail.com)) and we will provide the following data:
 
 ```
 1. Video features extracted using I3D model
