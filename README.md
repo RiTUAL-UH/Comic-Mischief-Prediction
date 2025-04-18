@@ -36,8 +36,6 @@ Comic-Mischief-Prediction
 │           ├── attention.py
 │           └── multi_task_model.py
 └── HICCAP.pdf
-
-
 ```
 
 ## Data
