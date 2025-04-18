@@ -64,22 +64,28 @@ This directory contains the implementation of the hybrid-pretraining approch inc
 
 ## Citation
 ```
-@inproceedings{chen-etal-2021-images,
-    title = "Can images help recognize entities? A study of the role of images for Multimodal {NER}",
-    author = "Chen, Shuguang  and
-      Aguilar, Gustavo  and
-      Neves, Leonardo  and
+@inproceedings{baharlouei-etal-2024-labeling,
+    title = "Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model",
+    author = "Baharlouei, Elaheh  and
+      Shafaei, Mahsa  and
+      Zhang, Yigeng  and
+      Escalante, Hugo Jair  and
       Solorio, Thamar",
-    booktitle = "Proceedings of the Seventh Workshop on Noisy User-generated Text (W-NUT 2021)",
-    month = nov,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.wnut-1.11",
-    pages = "87--96",
-    abstract = "Multimodal named entity recognition (MNER) requires to bridge the gap between language understanding and visual context. While many multimodal neural techniques have been proposed to incorporate images into the MNER task, the model{'}s ability to leverage multimodal interactions remains poorly understood. In this work, we conduct in-depth analyses of existing multimodal fusion techniques from different perspectives and describe the scenarios where adding information from the image does not always boost performance. We also study the use of captions as a way to enrich the context for MNER. Experiments on three datasets from popular social platforms expose the bottleneck of existing multimodal models and the situations where using captions is beneficial.",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.874/",
+    pages = "9999--10013",
+    abstract = "We address the challenge of detecting questionable content in online media, specifically the subcategory of comic mischief. This type of content combines elements such as violence, adult content, or sarcasm with humor, making it difficult to detect. Employing a multimodal approach is vital to capture the subtle details inherent in comic mischief content. To tackle this problem, we propose a novel end-to-end multimodal system for the task of comic mischief detection. As part of this contribution, we release a novel dataset for the targeted task consisting of three modalities: video, text (video captions and subtitles), and audio. We also design a HIerarchical Cross-attention model with CAPtions (HICCAP) to capture the intricate relationships among these modalities. The results show that the proposed approach makes a significant improvement over robust baselines and state-of-the-art models for comic mischief detection and its type classification. This emphasizes the potential of our system to empower users, to make informed decisions about the online content they choose to see."
 }
-```
 
 ## Contact
 Feel free to get in touch via email to elaheh.bahar1@gmail.com.
