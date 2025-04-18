@@ -23,57 +23,15 @@ multimodal_NER
 
 ```
 
-## Installation
-We have updated the code to work with Python 3.9, Pytorch 1.9, and CUDA 11.2. If you use conda, you can set up the environment as follows:
-
-```bash
-conda create -n multimodal_NER python==3.8
-conda activate multimodal_NER
-conda install pytorch==1.9 cudatoolkit=11.2 -c pytorch
-```
-
-Also, install the dependencies specified in the requirements.txt:
-```
-pip install -r requirements.txt
-```
-
 ## Data
-In this repository, we provide some toy examples to play with the code. Due to the policy, we are not allowed to release the data. If you need, please email Shuguang Chen ([schen52@uh.edu](schen52@uh.edu)) and we will provide the following data:
+In this repository, we provide three json files containing Metadata of train/val/test sets. These files also include the name of the videos in the Youtube, original subtitles and their extracted tokens using BERT model, labels, and some additional information related to each video. Due to the policy, we are not allowed to release the video data. If you need, please email Elaheh Baharlouei ([elaheh.bahar1@gmail.com](elaheh.bahar1@gmail.com)) and we will provide the following data:
 
 ```
-1. original twitter text
-2. associated images
-3. associated image captions
+1. Video features extracted using I3D model
+2. Audio features extracted using VGGish model
 ```
 
-<u>Image feature extraction</u>:
-- Global image features: you can use the script under `src/data/global_image_feature_extraction` for extract image features from VGG16 or ResNet152.
-- Regional image features: we provide the script under `src/data/regional_image_feature_extraction`. Please follow the instructions in [VisualBERT](https://github.com/uclanlp/visualbert/tree/master/visualbert) for extracting features for image objects.
 
-
-
-## Running
-
-We use config files to specify the details for every experiment (e.g., hyper-parameters, datasets, etc.). You can modify config files in the `configs` directory and run experiments with following command:
-
-```
-CUDA_VISIBLE_DEVICES=[gpu_id] python src/main.py --config /path/to/config
-```
-
-If you would like to run experiments with VisualBERT, please download the pretrained weights from [VisualBERT](https://github.com/uclanlp/visualbert/tree/master/visualbert) and replace `pretrained_weights` in the config file:
-
-```json
-    ...
-    "model": {
-        "name": "mner",
-        "model_name_or_path": "bert-base-uncased",
-        "pretrained_weights": "path/to/pretrained_weights",
-        "do_lower_case": true,
-        "output_attentions": false,
-        "output_hidden_states": false
-    },
-    ...
-```
 
 ## Citation
 ```
@@ -95,7 +53,7 @@ If you would like to run experiments with VisualBERT, please download the pretra
 ```
 
 ## Contact
-Feel free to get in touch via email to schen52@uh.edu.
+Feel free to get in touch via email to elaheh.bahar1@gmail.com.
 
 
 
