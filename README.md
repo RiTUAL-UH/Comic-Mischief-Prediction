@@ -58,6 +58,10 @@ Similar to the "Binary" directory, This directory contains the multi-task implem
 This directory contains 1) Metadata of train/val/test sets, 2) VGGish audio feature vetors, and 3)I3D video feature vectors. 
 
 
+## Hybrid-Pretraining
+This directory contains the implementation of the hybrid-pretraining approch including 1) nlp_comic_contrastive_loss_LREC.py for pretraining with contarstive learning, 2) nlp_comic_pretraining_Hybrid_LREC.py for loading the checkpoint of the pretrained model during contrastive learning and pretraining with various matching pretraining approch and 3) unified_model_hybrid_LREC.py a sample implementation of HICCAP architecture with required layers for hybrid pretraining approch. 
+
+
 ## Citation
 ```
 @inproceedings{chen-etal-2021-images,
