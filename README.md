@@ -5,6 +5,7 @@
 
 This repository contains the dataset and implementations of the model proposed in the paper ["Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"]() on [The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation]([https://lrec-coling-2024.org/]) at the [EMNLP 2021](https://2021.emnlp.org) conference.
 
+
 ## Repository Structure
 ```
 multimodal_NER
