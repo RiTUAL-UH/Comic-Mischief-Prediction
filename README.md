@@ -5,6 +5,10 @@
 
 This repository contains the dataset and implementations of the model proposed in the paper ["Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"]() on [The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation](https://lrec-coling-2024.org/) at the [LREC-COLING 2024](https://lrec-coling-2024.org/) conference.
 
+# Comic-Mischief-Prediction
+Figure 1 shows the overall structure of the proposed HIerarchical Cross Attention with CAPtion (HICCAP) model. 
+
+![HICCAP](https://github.com/user-attachments/assets/c1b725aa-7ca7-4ab7-b579-7d46d550c3ec)
 
 ## Repository Structure
 ```
@@ -57,11 +61,7 @@ Feel free to get in touch via email to elaheh.bahar1@gmail.com.
 
 
 
-# Comic-Mischief-Prediction
-Repository for the work Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model (LREC-COLING 2024). Figure 1 shows the overall structure of the proposed HIerarchical Cross Attention with CAPtion (HICCAP) model. Totally we have 3 directories 1) Binary, 2) Multi-Task, and 3) Features. We will discuss the content of directories in the next sections.
 
-
-![HICCAP](https://github.com/user-attachments/assets/c1b725aa-7ca7-4ab7-b579-7d46d550c3ec)
 
 ## Binary
 This directory contains the binary implementation of our approach. Inside of this directory, we can find two directories 1) source, and 2) processed_data. The source directory contains all the Python files needed to run the model for binary prediction. In the Python file "nlp_comic_fine_tuning_binary.py", we have the training loop for binary classification. The cinfig.py contains all the required configurations for training the model. The "models" directory contains the Python file of the proposed model and also the attention file implemented in this project. The "experiments" directory also contains a couple of helper functions that we utilized in our training process. The processed_data directory contains the json files needed for training, validation, and testing the model. These files contain a dictionary that has the name of all videos with assigned binary labels and also the related description. 
