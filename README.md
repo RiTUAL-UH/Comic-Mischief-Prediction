@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-This repository contains the dataset and implementations of the model proposed in the paper ["Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"]() on [The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation](http://noisy-text.github.io/2021/) at the [EMNLP 2021](https://2021.emnlp.org) conference.
+This repository contains the dataset and implementations of the model proposed in the paper ["Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"]() on [The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation]([http://noisy-text.github.io/2021/](https://lrec-coling-2024.org/)) at the [EMNLP 2021](https://2021.emnlp.org) conference.
 
 ## Repository Structure
 ```
